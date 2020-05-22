@@ -1,5 +1,6 @@
 /*css for index yo */
 
+/*css documentation */
 html, body { width: 100%; height: 100%;}
 html, body, h1, h2, h3, ul, li, p, a, span, img {
   padding: 0;
@@ -8,7 +9,7 @@ html, body, h1, h2, h3, ul, li, p, a, span, img {
 }
 
 #page00 {
-  background: #D3F8FB;
+  background: #FBEAD3;
   position: fixed;
   height: 50%;
   width: 100%;
@@ -43,5 +44,38 @@ html, body, h1, h2, h3, ul, li, p, a, span, img {
   width: 100%;
 }
 
-#page01 ul {width: 1020px; height: 800px; margin: 0 auto; /* border: 2px dotted red;*/ margin-top: 0px;}
-#page01 ul li {float: left; margin-left: 60px; position: relative; margin-top: 60px; overflow: hidden;}
+#page02 ul {
+  margin: 0 45%;
+  line-height: 35px;
+  font-size: 20px;
+  margin-top: 50px;
+
+}
+
+#page01 ul {
+  width: 1020px;
+  height: 800px;
+  margin: 0 auto;
+  /* border: 2px dotted red;*/
+  margin-top: 0px;
+}
+
+#page01 ul li {
+  float: left;
+  margin-left: 60px;
+  position: relative;
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+.container-box {
+   position:relative;
+}
+.container-box img {
+   height:200px;
+   width:20%;
+   position:absolute;
+   top:0px;
+   left:40%;
+   border:3px solid #FBC2C3
+}

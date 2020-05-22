@@ -1,0 +1,23 @@
+body h1 {
+  margin-left: 15%;
+  font-size: 45px;
+
+}
+body p {
+  /*text-align: center;*/
+  margin: 0 15%;
+  line-height: 35px;
+  font-size: 20px;
+}
+body img {
+  /*text-align: center;*/
+  margin: 0 15%;
+  height: auto;
+  width: 40%
+}
+body video {
+  /*text-align: center;*/
+  margin: 0 15%;
+  height: auto;
+  /*width: 40%*/
+}
