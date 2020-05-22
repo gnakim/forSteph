@@ -19,6 +19,10 @@ html, body, h1, h2, h3, ul, li, p, a, span, img {
   background-size: contain;
 }
 
+#steph img {
+  border-radius: 50%;
+}
+
 #page01 {
   background: #F7C9CF;
   position: absolute;
@@ -69,13 +73,17 @@ html, body, h1, h2, h3, ul, li, p, a, span, img {
 }
 
 .container-box {
-   position:relative;
+   position: absolute;
+   width: 20%;
+   height: 100%;
+   left: 40%;
 }
-.container-box img {
-   height:200px;
-   width:20%;
-   position:absolute;
-   top:0px;
-   left:40%;
-   border:3px solid #FBC2C3
+.container-box #steph {
+   border:3px solid #FBC2C3;
+   position: relative;
+}
+
+.container-box #steph img {
+  width: 100%;
+  height: auto;
 }
