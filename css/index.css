@@ -1,1 +1,35 @@
 /*css for index yo */
+
+html, body { width: 100%; height: 100%;}
+html, body, h1, h2, h3, ul, li, p, a, span, img {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+#page00 {
+  background: #D3F8FB;
+  position: fixed;
+  height: 50%;
+  width: 100%;
+  background-image: url("images/habbybirthday.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#page01 {
+  background: #F7C9CF;
+  position: absolute;
+  height: 150%;
+  top: 50%;
+  width: 100%;
+}
+
+#page02 {
+  background: #D3F8FB;
+  position: absolute;
+  height: 150%;
+  top: 200%;
+  width: 100%;
+}
