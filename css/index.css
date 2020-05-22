@@ -12,7 +12,7 @@ html, body, h1, h2, h3, ul, li, p, a, span, img {
   position: fixed;
   height: 50%;
   width: 100%;
-  background-image: url("images/habbybirthday.png");
+  background-image: url("images/hbd_banner.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -21,15 +21,27 @@ html, body, h1, h2, h3, ul, li, p, a, span, img {
 #page01 {
   background: #F7C9CF;
   position: absolute;
-  height: 150%;
+  height: 200%;
   top: 50%;
   width: 100%;
+}
+
+#page01-h2 {
+  width: 960px;
+  height: 50px;
+  margin: 0 auto;
+  padding-left: 60px;
+   /*border: 2px dotted red;*/
+  margin-top: 30px;
 }
 
 #page02 {
   background: #D3F8FB;
   position: absolute;
-  height: 150%;
-  top: 200%;
+  height: 30%;
+  top: 250%;
   width: 100%;
 }
+
+#page01 ul {width: 1020px; height: 800px; margin: 0 auto; /* border: 2px dotted red;*/ margin-top: 0px;}
+#page01 ul li {float: left; margin-left: 60px; position: relative; margin-top: 60px; overflow: hidden;}
