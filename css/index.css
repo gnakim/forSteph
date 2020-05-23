@@ -30,13 +30,15 @@ a:hover {
   font-size: 100px;
   text-align: center;
   font-family:'PT Sans Narrow', sans-serif;
+  color: #FC94AF;
+
 }
 
 /* second page, basics  */
 #page01 {
   background: #F7C9CF;
   position: absolute;
-  height: 180%;
+  height: 210%;
   top: 50%;
   width: 100%;
 }
@@ -77,7 +79,7 @@ a:hover {
   background: #FBEAD3;
   position: absolute;
   height: 30%;
-  top: 230%;
+  top: 240%;
   width: 100%;
 }
 
