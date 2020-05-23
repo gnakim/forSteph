@@ -27,6 +27,9 @@ a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  font-size: 100px;
+  text-align: center;
+  font-family:'PT Sans Narrow', sans-serif;
 }
 
 /* second page, basics  */
