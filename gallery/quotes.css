@@ -1,0 +1,16 @@
+*{
+  font-family: 'Pacifico', sans-serif;
+}
+
+body h1 {
+  text-align: center;
+  margin-left: 0;
+  font-size: 45px;
+
+}
+body p {
+  text-align: center;
+  margin: 0 15%;
+  line-height: 35px;
+  font-size: 20px;
+}

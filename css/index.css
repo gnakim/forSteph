@@ -1,6 +1,6 @@
 /*css for index yo */
 
-/*css documentation */
+/*css documentation: get rid of weird border buffer */
 html, body { width: 100%; height: 100%;}
 html, body, h1, h2, h3, ul, li, p, a, span, img {
   padding: 0;
@@ -8,6 +8,16 @@ html, body, h1, h2, h3, ul, li, p, a, span, img {
   border: 0;
 }
 
+a:link, a:visited, a:active {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+}
+
+/* first page color and basics */
 #page00 {
   background: #FBEAD3;
   position: fixed;
@@ -19,43 +29,29 @@ html, body, h1, h2, h3, ul, li, p, a, span, img {
   background-size: contain;
 }
 
-#steph img {
-  border-radius: 50%;
-}
-
+/* second page, basics  */
 #page01 {
   background: #F7C9CF;
   position: absolute;
-  height: 200%;
+  height: 170%;
   top: 50%;
   width: 100%;
 }
-
+/* second page, heading */
 #page01-h2 {
   width: 960px;
   height: 50px;
   margin: 0 auto;
-  padding-left: 60px;
+  /*padding-left: 60px;*/
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family:'PT Sans Narrow', sans-serif;
    /*border: 2px dotted red;*/
-  margin-top: 30px;
+  margin-top: 170px;
 }
 
-#page02 {
-  background: #D3F8FB;
-  position: absolute;
-  height: 30%;
-  top: 250%;
-  width: 100%;
-}
-
-#page02 ul {
-  margin: 0 45%;
-  line-height: 35px;
-  font-size: 20px;
-  margin-top: 50px;
-
-}
-
+/* second page, profile table */
 #page01 ul {
   width: 1020px;
   height: 800px;
@@ -64,12 +60,43 @@ html, body, h1, h2, h3, ul, li, p, a, span, img {
   margin-top: 0px;
 }
 
+/* second page, individual profiles */
 #page01 ul li {
   float: left;
   margin-left: 60px;
   position: relative;
   margin-top: 60px;
   overflow: hidden;
+}
+
+/* third page, color and basics */
+#page02 {
+  background: #FBEAD3;
+  position: absolute;
+  height: 30%;
+  top: 220%;
+  width: 100%;
+}
+
+/* third page, shizstephsays */
+#page02 ul {
+  text-align: center;
+  line-height: 35px;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+/* third page, creds */
+#creds {
+  text-align: center;
+  line-height: 35px;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+/* steph's picture box thing */
+#steph img {
+  border-radius: 50%;
 }
 
 .container-box {
@@ -79,7 +106,7 @@ html, body, h1, h2, h3, ul, li, p, a, span, img {
    left: 40%;
 }
 .container-box #steph {
-   border:3px solid #FBC2C3;
+   /*border:3px solid #FBC2C3;*/
    position: relative;
 }
 
