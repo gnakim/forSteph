@@ -1,2 +1,3 @@
 # forSteph
-go shawty it's ya birthday; we gonna party like it's ya birthday (but in quarantine bc there is a global pandemic rn)
+Website hosting letters for a friend's birthday because the pandemic is preventing us from celebrating in real life
+
